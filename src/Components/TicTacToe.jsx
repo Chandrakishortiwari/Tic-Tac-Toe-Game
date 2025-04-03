@@ -27,7 +27,7 @@ function TicTacToe() {
         ))}
       </div>
       <button
-        className="mt-8 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xl font-bold shadow-xl transition-all duration-300"
+        className="mt-15 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xl font-bold shadow-xl transition-all duration-300"
         onClick={() => setBoard(Array(9).fill(null))}
       >Restart</button>
       
