@@ -62,10 +62,10 @@ function TicTacToe() {
       </h1>
 
       {winner && (
-        <h2 className="text-3xl font-bold text-green-400 mb-4">
-          Winner: {winner} 🎉
-        </h2>
-      )}
+  <h2 className="text-3xl font-bold text-green-400 mb-4 animate-winner">
+    Winner: {winner} 🎉
+  </h2>
+)}
 
       <div
         className={`grid grid-cols-3 gap-4 bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700 transition-transform duration-500 ${

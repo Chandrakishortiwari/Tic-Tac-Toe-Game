@@ -12,4 +12,22 @@
       transform: rotateY(180deg);
     }
   }
+  @keyframes winnerAnimation {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
   
+  .animate-winner {
+    animation: winnerAnimation 0.6s ease-in-out;
+  }
+    
